@@ -1,0 +1,99 @@
+h1 {
+ font-size: 60px;  
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 100;
+ font-style: italic;
+ color: #D11500; 
+}
+p { 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 30, 30);
+    font-weight: 100;
+}
+ul {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+    list-style: square;
+}
+ol {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+    align-items: center;
+}
+img {
+    width: 600px;
+    object-fit: cover;
+}
+body {
+    background-color: #fff5ed;
+    text-align: center;
+}
+.img-horizontal {
+    height: 200px; width: 200px;
+}
+.img-vertical {
+    height: 100px; width: auto;
+}
+#with-stroke {
+    border: 0px rgb(255, 68, 0) solid;
+}
+a {
+    text-decoration: none;
+    color: #D11500;
+}
+.main-button {
+    background-color: #D11500;
+    color: aliceblue;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-button:hover {
+    background-color: burlywood;
+    color: #D11500;
+    border: 3px;
+}
+.header-open-box {
+    padding: 20px;
+    margin: 20px auto;
+    width: 600px;
+}
+
+.mini-bio {
+    padding: 20px;
+    margin: 20px auto;
+    width: 600px; 
+}
+
+.card-2-cities {
+    padding: 20px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.Cities-where-i-lived {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(30, 30, 30);
+}
+.intro {
+    font-style: italic;
+}
+
+@media (max-width: 720px) {
+    body {
+
+    }
+}
